@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Lego Store</title>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li >Creator</li>
+      <li >Creator Expert</li>
+      <li >Star Wars</li>
+    </ul>
+  </nav><br>
+
+  <section id="content">
+
+  </section>
+
+  <template id="lego-template">
+    <div class="lego_card">
+      <div class="info_section">
+        <div class="lego_header">
+          <img class="locandina" src="{{lego-box-url}}"/>
+          <h1>{{lego-name}}</h1>
+          <h4>Collection : {{lego-collection}}</h4>
+          <span class="pieces">Pièces : {{lego-nbpieces}}</span>
+          <p class="price">{{lego-price}}€</p>
+        </div>
+        <div class="lego_desc">
+          <p class="text">
+            {{lego-description}}
+        </p>
+        </div>
+        <div class="lego_social">
+          <ul>
+            <li><i class="material-icons">share</i></li>
+            <li><i class="material-icons"></i></li>
+            <li><i class="material-icons">chat_bubble</i></li>
+          </ul>
+        </div>
+      </div>
+      <div class="blur_back">
+        <img src="{{lego-background-url}}" alt="background lego card">
+      </div>
+    </div>
+  </template>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,6 +1,5 @@
 <?php
 
-
 require("model.php");
 
 $legos = [];

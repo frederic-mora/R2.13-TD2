@@ -3,12 +3,6 @@
 
 require("model.php");
 
-/* Question
-
-    La BDD comporte aussi des modèles de la collection Harry Potter.
-    Mettre à jour les parties clientes et serveur pour donner accès à cette collection
-*/
-
 $legos = [];
 
 if ( isset($_REQUEST['collection'] ) ){

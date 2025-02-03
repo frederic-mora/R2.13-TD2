@@ -1,16 +1,19 @@
 <?php
 
 
-require("model.php");
+/*  Indications
 
-/* 
-    En vous basant sur votre compréhension de ce script serveur.
+    1. En vous basant sur votre compréhension de ce script serveur.
     Faites des requêtes HTTP depuis la barre d'adresse de votre navigateur
     pour interroger correctement ce script.
 
-    Puis ouvrez index.html de la partie cliente et suivez les indications.
-
+    2. Selon la valeur du paramètre collection, le script n'utilise pas la même fonction
+    pour obtenir les données à renvoyer au client.
+    Où sont définies ces fonctions ? Quel fichier faut-il ouvrir pour les consulter ?
+    Qu'en déduisez-vous sur le rôle de l'instruction require("model.php") ?
 */ 
+
+require("model.php");
 
 $legos = [];
 

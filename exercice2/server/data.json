@@ -7,8 +7,8 @@
         "price": 94.99,
         "pieces": 1167,
         "images": {
-            "box": "./asset/LEGO_10252_Box.png",
-            "bg": "./asset/LEGO_10252_Main.jpg"
+            "box": "LEGO_10252_Box.png",
+            "bg": "LEGO_10252_Main.jpg"
         }
     },
     {
@@ -19,8 +19,8 @@
         "price": 19.99,
         "pieces": 222,
         "images": {
-            "box": "./asset/LEGO_31046_Box.png",
-            "bg": "./asset/LEGO_31046_Main.jpg"
+            "box": "LEGO_31046_Box.png",
+            "bg": "LEGO_31046_Main.jpg"
         }
     },
     {
@@ -31,8 +31,8 @@
         "price": 29.99,
         "pieces": 359,
         "images": {
-            "box": "./asset/LEGO_31064_Box.png",
-            "bg": "./asset/LEGO_31064_Main.jpg"
+            "box": "LEGO_31064_Box.png",
+            "bg": "LEGO_31064_Main.jpg"
         }
     },
     {
@@ -43,8 +43,8 @@
         "price": 19.99,
         "pieces": 205,
         "images": {
-            "box": "./asset/LEGO_31062_Box.png",
-            "bg": "./asset/LEGO_31062_Main.jpg"
+            "box": "LEGO_31062_Box.png",
+            "bg": "LEGO_31062_Main.jpg"
         }
     },
     {
@@ -55,8 +55,8 @@
         "price": 54.99,
         "pieces": 566,
         "images": {
-            "box": "./asset/LEGO_31065_Box.png",
-            "bg": "./asset/LEGO_31065_Main.jpg"
+            "box": "LEGO_31065_Box.png",
+            "bg": "LEGO_31065_Main.jpg"
         }
     },
     {
@@ -67,8 +67,8 @@
         "pieces": 717,
         "price": 89.99,
         "images": {
-           "box": "./asset/LEGO_75102_Box.png",
-           "bg": "./asset/LEGO_75102_Main.jpg"
+           "box": "LEGO_75102_Box.png",
+           "bg": "LEGO_75102_Main.jpg"
         }
     },
     {
@@ -79,8 +79,8 @@
         "pieces": 7541,
         "price": 799.99,
         "images": {
-            "box": "./asset/LEGO_75192_Box.jpg",
-            "bg": "./asset/LEGO_75192_Main.png"
+            "box": "LEGO_75192_Box.jpg",
+            "bg": "LEGO_75192_Main.png"
         }
     }   
 ]

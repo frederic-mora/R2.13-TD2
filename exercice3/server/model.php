@@ -68,21 +68,5 @@ function getLegoStarWars(){
 }
 
 
-/*  getLegoStarWars
-
-    La fonction se connecte à la BDD, sélectionne tous les légos de la collection Star Wars
-    et retourne un tableau contenant les Legos sélectionnés.
-*/
-function getLegoStarWars(){
-   $cnx = new PDO("mysql:host=localhost;dbname=" . DB, DBLOGIN, DBPWD);
-    $sql = "SELECT *
-            FROM Lego_Set JOIN Lego_Collection ON Lego_Set.idcollection=Lego_Collection.id
-            WHERE Lego_Collection.collection='Star Wars'";
-    $answer = $cnx->query($sql);
-    $res = $answer->fetchAll(PDO::FETCH_OBJ);
-    return $res;
-}
-
-
 
 ?>
